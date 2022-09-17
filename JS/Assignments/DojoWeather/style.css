@@ -1,0 +1,172 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* top navigation */
+
+.top {
+    background-color: lightsteelblue;
+    margin-bottom: 30px;
+}
+
+.nav {
+    width: 1440px;
+    margin: 0 auto;
+    height: 80px;
+    color: rgb(238, 238, 236);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinks {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* main content */
+
+/* top content */
+
+.maincontainer {
+    width: 980px;
+}
+
+.top-content {
+    width: 980px;
+    margin: 0;
+
+}
+
+.contenttop {
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1.5px;
+    margin-bottom: 30px;
+}
+
+.contenttop h2 {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+
+.contenttop div {
+    margin-right: 10px;
+}
+
+/* forecast */
+
+.weekly {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.weathericon {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.icon-s {
+    width: 175px;
+    margin-left: 20px;
+}
+
+.somewhat {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 50px;
+    font-size: 25px;
+    /* margin-right: 30px; */
+}
+
+.weathertext {
+    margin-left: -10px;
+    font-weight: 600;
+}
+
+.degrees {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+    width: 980px;
+    margin-bottom: 60px;
+}
+
+.temps {
+    margin-left: -25px;
+}
+
+.warm {
+    color: red;
+    margin-right: -10px;
+    font-size: 25px;
+}
+
+.cool {
+    color: blue;
+    /* margin-left: 40px; */
+    font-size: 25px;
+}
+
+/* footer */
+
+#footer {
+    border: solid black 2px;
+    padding: 20px;
+    width: 100%;
+}
+
+.footercontent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+}
+
+.cookie {
+    margin-left: -90px;
+} 
+
+.footertext {
+    margin-left: -90px;
+}
+
+.footertext h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.footertext p {
+    font-size: 20px;
+}
+
+.btn {
+    padding: 7px;
+    width: 125px;
+    background-color: rgb(138, 175, 243);
+    font: bold;
+    font-size: 25px;
+    box-shadow: 3px 3px 3px 1px;
+}

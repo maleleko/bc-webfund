@@ -1,0 +1,52 @@
+#search {
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 45px;
+    /* border-color: rgb(112, 204, 181);
+    border-bottom-color: rgb(112, 204, 181) //copied border: from solution, it was close but the bottom of the border came out black, theres a lot of room for improvement since solution code is much more simpler than mine. but not bad for practice. ; */
+    border-collapse: collapse;
+    border: 2px solid #7dc8c8;
+    box-shadow: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(249, 247, 247);
+    color: rgb(112, 204, 181);
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+#plus {
+    margin-left: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(112, 204, 181);
+    height: 35px;
+    width: 35px;
+    text-size-adjust: 50%;
+    text-align: center;
+    font-size: 17px;
+    font-family: Verdana;
+}
+
+#account {
+    /* size-adjust: 500px; */
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 40px;
+    width: 160px;
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(52, 125, 235);
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    box-shadow: 2px 2px 2px 1px black;
+}

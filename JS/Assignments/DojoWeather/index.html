@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <div class="nav">
+            <h1>Dojo Weather</h1>
+                    <ul class="navlinks">
+                    <li onclick="alert('Loading Burbank forecast..')">Burbank</li>
+                    <li onclick="alert('Loading Chicago forecast..')">Chicago</li>
+                    <li onclick="alert('Loading Dallas forecast..')">Dallas</li>
+                    </ul>
+        </div>
+    </div>
+    <div class="maincontainer">
+        <div class="top-content">
+            <div class="contenttop">
+                <h2>San Jose</h2>
+                    <div>
+                        <label class="showtemp">show temperature in</label>
+                        <select onchange="swap(this.value)" name="celsiusfarh" id="celsiusfarh">
+                        <option value="celsius" class="celsius">°C</option>
+                        <option value="farenheit" class="farenheit">°F</option>
+                        </select>
+                    </div>
+            </div>
+        </div>
+        <div class="maininfo">
+            <div class="forecast">
+                <ul class="weekly">
+                    <li>Today</li>
+                    <li>Tomorrow</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                </ul>
+            </div>
+            <div class="weathericon">
+                <img src="assets/some_rain.png" alt="some_rain" class="icon-s">
+                <img src="assets/some_sun.png" alt="some_sun" class="icon-s">
+                <img src="assets/some_clouds.png" alt="some_clouds" class="icon-s">
+                <img src="assets/some_sun.png" alt="some_sun" class="icon-s">
+            </div>
+            <div class="weathertext">
+                <ul class="somewhat">
+                    <li>some rain</li>
+                    <li>some sun</li>
+                    <li>some clouds</li>
+                    <li class="somealignlol">some sun</li>
+                </ul>
+            </div>
+            <div class="temps">
+                <div class="degrees">
+                    <span class="temp1"><b>24°</b></span>
+                    <span class="temp2"><b>18°</b></span>
+                    <span class="temp3"><b>27°</b></span> 
+                    <span class="temp4"><b>19°</b></span>
+                    <span class="temp5"><b>21°</b></span>
+                    <span class="temp6"><b>16°</b></span>
+                    <span class="temp7"><b>26°</b></span> 
+                    <span class="temp8"><b>21°</b></span>
+                </div>
+            </div>
+            <div id="footer">
+                <div class="footercontent">
+                    <div class="footercookie"><img src="assets/cookie.png" alt="cookies" class="cookie">
+                    </div>
+                    <div class="footertext">
+                        <h3>Stop! Cookie time</h3>
+                        <p>We use cookies (sadly not the edible ones) to personalize<br>
+                            content and ads, to provide social media features and to<br>
+                            analyse our traffic. <a href="#">Read more...</a></p>
+                    </div>
+                    <div>
+                        <button class="btn" onclick="hide(this)">I Accept</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

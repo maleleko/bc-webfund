@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(245, 238, 228);
+}
+
+
+.top {
+    background-color: rgb(48, 48, 48);
+    margin-bottom: 20px;
+}
+
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    height: 75px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navlinks {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    /* border: 2px solid black; */
+    width: 105px;
+    height: 36px;
+    background-color: steelblue;
+    color: white;
+    font-size: 17px;
+}
+
+.btn button {
+    box-shadow: 2px 2px 2px 1px;
+    list-style-type: none;
+}
+
+/* main content */
+.containermain {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+    margin-left: -22px;
+}
+
+.columnleft, .rightcolumn {
+    flex: 1;
+}
+
+.columnleft {
+    flex: 2;
+}
+
+
+/* left content */
+
+.usercard {
+    height: 375px;
+    width: 600px;
+    border: 3px solid lightgray;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.userheader {
+    background-color: rgb(159, 215, 231);
+    height: 100px;
+    width: 100%;
+}
+
+.janeavi {
+    border-radius: 50%;
+    border-color: white;
+    background-color: black;
+    border: 4px solid white ;
+    width: 120px;
+    margin: 25px 30px 20px 20px;
+}
+
+.userbio {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    padding: 20px;
+    font-size: larger;
+}
+
+.userbio h1, h3, p {
+    margin-bottom: 10px;
+}
+
+.bioicon {
+    height: 17px;
+}
+
+/* edu footer */
+
+.educolumn {
+    width: 600px;
+    height: 210px;
+    border: 3px solid lightgray;
+    background-color: white; 
+}
+
+.eduheader {
+    background-color: rgb(48, 48, 48);
+    height: 60px;
+    width: 100%;
+}
+
+.edutext {
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.eduinfo {
+    display: flex-start;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.edubiohead, .edudates {
+    margin-bottom: 10px;
+}
+
+.edudates {
+    color: rgb(86, 86, 86);
+}
+
+.edubio {
+    font-size: 20px;
+}
+
+/* right cloumns */
+
+/* connections */
+
+.connectionreq {
+    border: 3px solid lightgray;
+    width: 325px;
+    height: 250px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.connectionshead {
+    background-color: rgb(48, 48, 48);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.two {
+    border-radius: 12px;
+    border-width: 80px;
+    background-color: lightgray;
+    padding: 0px 10px;
+}
+
+.fivehunnidplus {
+    border-radius: 60px;
+    background-color: lightgray;
+    padding: 0px 3px;
+}
+
+.conreq {
+    color: white;
+}
+
+/* your connection */
+
+.yourconnection {
+border: 3px solid lightgray;
+width: 325px;
+height: 420px;
+/* margin-bottom: 20px; */
+background-color: white;
+}
+
+.yourconhead {
+    background-color: rgb(48, 48, 48);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.urcon {
+    color: white;
+}
+
+.constuff {
+    margin: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.icons {
+    height: 35px;
+}
+
+.constuff p {
+    font-size: 25px;
+}
+
+.urconstuff {
+    margin: 30px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.urconstuff span {
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+.viewmore {
+    border: 3px solid lightgray;
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    width: 285px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+.viewmore a {
+    font-size: 20px;
+}

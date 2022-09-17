@@ -1,0 +1,124 @@
+/* Top Nav Bar */
+
+.top {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkgray;
+    margin-bottom: 30px;
+}
+
+.nav-title {
+    margin-right: 200px;
+}
+
+input {
+    font-size: 25px;
+    margin-right: 250px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(124, 145, 173);
+    border: 2px solid black;
+    box-shadow: 4px 3px 1px 1px black;
+    padding: 5px;
+    height: 35px;
+    width: 65px;
+    font-size: 15px;
+}
+
+/* Left Column */
+.containermain {
+    font-family: 'Calibri';
+    width: 650px;
+    height: 250px;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.ninja {
+    font-size: 60px;
+    margin-bottom: 7px;
+}
+
+.noun {
+    font-size: 25px;
+    font-style: italic;
+    margin-left: 30px;
+    margin-bottom: 7px;
+}
+
+.plural {
+    font-size: 20px;
+    /* margin-bottom: 50px; */
+}
+
+.p {
+    font-size: 30px;
+    position: relative;
+    bottom: 125px;
+    left: 250px;
+}
+
+h2, h3, h4, p {
+    margin: 0;
+    position: relative;
+    /* top: 20px; */
+    left: 30px;
+}
+
+.btn2 {
+    color: black;
+    background-color: gold;
+    width: 95px;
+    height: 40px;
+    position: relative;
+    top: 60px;
+    left: 40px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 4px 3px 1px 1px black;
+}
+
+/* Right Column */
+.containerright {
+    font-family: 'Calibri';
+    border: 3px solid black;
+    width: 370px;
+    height: 165px;
+    position: relative;
+    bottom: 652px;
+    left: 725px;
+    margin: 0;
+    padding: 20px;
+}
+
+.p-right {
+    font-size: 40px;
+    position: relative;
+    top: -10px;
+}
+
+.btn3 {
+    color: black;
+    background-color: rgb(65, 192, 144);
+    border: 2px solid black;
+    box-shadow: 4px 3px 1px 1px black;
+    width: 300px;
+    font-size: 35px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.spanconnections {
+    border-radius: 50%;
+}

@@ -1,0 +1,26 @@
+body {
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.table, tr, th, td {
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    border-collapse: collapse; 
+    border-radius: 1px;
+    padding: 5px;
+    
+}
+
+.tr {
+    background-color: rgb(178, 178, 178);
+}
+
+.row1, .row3 {
+    background-color: rgb(230, 230, 230);
+}
+.name, .age, .species, .breed  {
+    white-space: 25px;
+}
