@@ -1,2 +1,2 @@
 # bc-webfund
-everything i've done during the Web Fundamentals at coding dojo
+everything i've done during the Web Fundamentals course at coding dojo
